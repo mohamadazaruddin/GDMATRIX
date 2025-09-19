@@ -1,0 +1,703 @@
+[
+  {
+    "Batch": 10,
+    "Group": "Core",
+    "Resource": "Dina Michaely",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 10,
+    "Group": "Core",
+    "Resource": "Yuval Belenky",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 11,
+    "Group": "Core",
+    "Resource": "Deeshma Aiyappa Chottangada",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 11,
+    "Group": "Core",
+    "Resource": "Shilpa Govindaraju",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 11,
+    "Group": "Core",
+    "Resource": "Nikhil Rajesh Deshmukh",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 11,
+    "Group": "Core",
+    "Resource": "Anand Menankandy Kombra",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 11,
+    "Group": "Core",
+    "Resource": "Damini Jogi",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 11,
+    "Group": "Core",
+    "Resource": "Anupama Ravikumar",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 11,
+    "Group": "Core",
+    "Resource": "Sidharth Purushothaman Edayath",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 11,
+    "Group": "Core",
+    "Resource": "Ayushi Gupta",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 11,
+    "Group": "Core",
+    "Resource": "Anil Kodiganti",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 11,
+    "Group": "Core",
+    "Resource": "Megha Singhal",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 12,
+    "Group": "Core",
+    "Resource": "Yellampalli Madhura",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 12,
+    "Group": "Core",
+    "Resource": "Leo Louis Kooliyadan",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 12,
+    "Group": "Core",
+    "Resource": "Chittuluri Mahesh",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 12,
+    "Group": "Core",
+    "Resource": "Nakatte Karthik Prakash Shetty",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 12,
+    "Group": "Core",
+    "Resource": "Nasreen Firdous",
+    "role": "Analyst"
+  },
+  { "Batch": 12, "Group": "Core", "Resource": "Amit Magoz", "role": "Analyst" },
+  {
+    "Batch": 13,
+    "Group": "Core",
+    "Resource": "Hiteshwar Dutt",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 13,
+    "Group": "Core",
+    "Resource": "Shubham Agarwal",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 13,
+    "Group": "Core",
+    "Resource": "Rajat Lamba",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 13,
+    "Group": "Core",
+    "Resource": "Poulami Saha",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 13,
+    "Group": "Core",
+    "Resource": "Srijani Saha",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 13,
+    "Group": "Core",
+    "Resource": "Swati Suman",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 13,
+    "Group": "Core",
+    "Resource": "Biduduri Himaja",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 13,
+    "Group": "Core",
+    "Resource": "Pawan Kumar",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 13,
+    "Group": "Core",
+    "Resource": "Jagriti Lnu",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 13,
+    "Group": "Core",
+    "Resource": "Priya Sharma",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 13,
+    "Group": "Core",
+    "Resource": "Akash Kumar Ojha",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 14,
+    "Group": "Core",
+    "Resource": "Ayanabha Karmakar",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 14,
+    "Group": "Core",
+    "Resource": "Navya Shukla",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 14,
+    "Group": "Core",
+    "Resource": "Subham Agarwal",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 14,
+    "Group": "Core",
+    "Resource": "Tamar Hochberg",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 15,
+    "Group": "Core",
+    "Resource": "Usman Fuzail",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 15,
+    "Group": "Core",
+    "Resource": "Ashish D'Souza",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 15,
+    "Group": "Core",
+    "Resource": "Priyanka Teresa Lucas",
+    "role": "Analyst"
+  },
+  { "Batch": 15, "Group": "Core", "Resource": "Lavish Siddiqui" },
+  {
+    "Batch": 15,
+    "Group": "Core",
+    "Resource": "Mohamad Azaruddin Mohiddin",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 15,
+    "Group": "Core",
+    "Resource": "Omkar Anil Somawar",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 15,
+    "Group": "Core",
+    "Resource": "Smruti Swarupa Panda",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Mugunth Subash Murugesan",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Shefali Mittal",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Nikhil Suri",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Bhavya Gupta",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Mitali Gupta",
+    "role": "Analyst"
+  },
+  { "Batch": 16, "Group": "Core", "Resource": "Naincy Lnu", "role": "Analyst" },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Devanshu Bhalla",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Piyush Singh",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Tanya Aggarwal",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Vivek Singh Patel",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Manaswi Sanwal",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Anshika Tripathi",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Roshni Shrestha",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Elad Seidler",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 16,
+    "Group": "Core",
+    "Resource": "Dorin Golan",
+    "role": "Analyst"
+  },
+  { "Batch": 16, "Group": "Core", "Resource": "Matan Edri", "role": "Analyst" },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Martin James",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Nandini Sarda",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Allu Chandana",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Lalitha Lakshmi Narayanayyar Sivaramakrishnan",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Chandhana Rodda Nagaraj",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Neha Rajeevan",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Nerella Hema Bindu",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Angad Singh",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Noshi Babu Sandhya",
+    "role": "Analyst"
+  },
+  { "Batch": 17, "Group": "Core", "Resource": "Arad Drori", "role": "Analyst" },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Rishabh Yadav",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Sumit  Rajawat",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Amitoj Singh Chhabra",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 17,
+    "Group": "Core",
+    "Resource": "Bhavya Ranka",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Mahesh Garla",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Vrishab Kumar Boggaram Suresh",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Sai Krishna Anasuri",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Sameer Gupta",
+    "role": "Analyst"
+  },
+  { "Batch": 18, "Group": "Core", "Resource": "Riya LNU", "role": "Analyst" },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Isabel Rose Prinson",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Parina Ahluwalia",
+    "role": "Analyst"
+  },
+  { "Batch": 18, "Group": "Core", "Resource": "Muskan LNU", "role": "Analyst" },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Ishdeep Singh Bharaj",
+    "role": "Analyst"
+  },
+  { "Batch": 18, "Group": "Core", "Resource": "Aniket Dey", "role": "Analyst" },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Sweta Kumari",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Faizan Aman",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Gurudutt Pal",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Chaturvedi  Anmol",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Jassal Chhavi",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 18,
+    "Group": "Core",
+    "Resource": "Divya Nanjundappa",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 19,
+    "Group": "Core",
+    "Resource": "Hezron Parado",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 19,
+    "Group": "Core",
+    "Resource": "Meenakshi Vailapilly Jagadeep",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 19,
+    "Group": "Core",
+    "Resource": "Madhur Grover",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 19,
+    "Group": "Core",
+    "Resource": "Alicia Arogya Swamy",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 20,
+    "Group": "Core",
+    "Resource": "Jayasheela J R",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 20,
+    "Group": "Core",
+    "Resource": "Maahi Agarwal",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 20,
+    "Group": "Core",
+    "Resource": "Sarthak Mohanty",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 20,
+    "Group": "Core",
+    "Resource": "Nandini Prakash",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 20,
+    "Group": "Core",
+    "Resource": "Divyakshi Gupta",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 20,
+    "Group": "Core",
+    "Resource": "Erikhomba Meetei Huidrom",
+    "role": "Analyst"
+  },
+  { "Batch": 21, "Group": "Core", "Resource": "Mansi Sood", "role": "Analyst" },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Aisiri Ravi",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Kathroju Hima Bindu",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Reshma Bhanu",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Bhavana Rajendra Joge",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Pranavu Prasannan",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Prem Kumar Venkatesh",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Supriya Prakash",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Revathi Jagadish",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Rashid Nadukkandiyil",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Shayamala Rohith",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Gayatri Kumar",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Sreya Sudhakaran",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Sharannya Ghosh",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Kiran Kanika Baskar",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Priyaanka Nagendra Dixit",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 21,
+    "Group": "Core",
+    "Resource": "Keerthi Kennedy",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 22,
+    "Group": "Core",
+    "Resource": "Murugan Rajitha",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 22,
+    "Group": "Core",
+    "Resource": "Thanusha Janjanam",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 22,
+    "Group": "Core",
+    "Resource": "Mahima Purohit",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 22,
+    "Group": "Core",
+    "Resource": "Jeedigunta Kanaka Gowri Mahalakshmi",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 22,
+    "Group": "Core",
+    "Resource": "Priyanshu Pareek",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 22,
+    "Group": "Core",
+    "Resource": "Shiva Thalaiyur Venkatanathan",
+    "role": "Analyst"
+  },
+  { "Batch": 22, "Group": "Core", "Resource": "Annu Nisal", "role": "Analyst" },
+  {
+    "Batch": 22,
+    "Group": "Core",
+    "Resource": "PRITAM PARIDA",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 22,
+    "Group": "Core",
+    "Resource": "Pragya Gupta",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 22,
+    "Group": "Core",
+    "Resource": "Eitan Stattia",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 22,
+    "Group": "Core",
+    "Resource": "Ritesh Sharma",
+    "role": "Analyst"
+  },
+  {
+    "Batch": 22,
+    "Group": "Core",
+    "Resource": "Sharon Sitton Soffer",
+    "role": "Analyst"
+  },
+  { "Batch": 23, "Group": "Core", "Resource": "Neha Mittal", "role": "Analyst" }
+]
