@@ -24,6 +24,7 @@ header {
   font-weight: 600;
   display: flex;
   align-items: center;
+  color: #031930;
 }
 .logo span {
   height: 30px;
@@ -65,22 +66,24 @@ main {
   background-color: #f2f3f7;
 }
 .nav.active {
-  background-color: #0062ff;
+  background-color: #24ca49;
   color: #ffffff;
 }
 .nav:hover {
   cursor: pointer;
 }
+
 .grid-wrapper {
   width: 100%;
   margin: 20px auto;
+  margin-bottom: 40px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 .grid-header-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  background: #24ca49;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background: #0062ff;
   color: #fff;
   font-weight: bold;
   margin-bottom: 4px;
@@ -91,6 +94,8 @@ main {
 .grid-header {
   padding: 12px 8px;
   text-align: left;
+  font-size: 14px;
+  font-weight: 500;
   border-right: 1px solid #fff;
 }
 .grid-header:last-child {
@@ -103,7 +108,7 @@ main {
 }
 .grid-row {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   margin-bottom: 4px;
 }
 .grid-cell {
@@ -117,7 +122,7 @@ main {
   margin-bottom: 4px;
 }
 .grid-row:nth-child(even) .grid-cell {
-  background: #e9fced;
+  background: #e5ebf5;
   backdrop-filter: blur(5px);
 }
 .grid-cell:last-child {
@@ -169,7 +174,7 @@ main {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
   padding: 12px 16px;
   min-width: 280px;
-  border-left: 3px solid red;
+  border-left: 3px solid #4807ea;
   max-width: 280px;
   flex: 1 1 220px;
   overflow: hidden;
@@ -202,4 +207,239 @@ main {
 
 .card-link:hover {
   text-decoration: underline;
+}
+.copy-btn {
+  padding: 5px 12px;
+  background: #fd4438;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+  font-size: 12px;
+  align-self: flex-start;
+  transition: background 0.2s;
+  outline: none;
+}
+.copy-btn:active,
+.copy-btn:focus {
+  background: #14406b;
+}
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.form-card {
+  width: fit-content;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(16px);
+  border-radius: 8px;
+  height: 100%;
+  max-width: 500px;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #000;
+  white-space: nowrap;
+}
+label,
+input,
+select,
+button {
+  display: block;
+  color: #000;
+}
+.case-input {
+  background-color: #f3f3f3;
+  color: #000;
+  /* width: calc(100% - 35px); */
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 1px solid #4807ea;
+}
+
+.counterpartyCheckbox {
+  display: inline-block;
+  margin: 0px;
+}
+
+input:focus,
+select:focus {
+  border-color: #4807ea;
+}
+.formbtns {
+  background-color: #4807ea;
+  color: #ffffff;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+.radio-btn-parent {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+.radio-btn-parent label {
+  margin-left: 4px;
+  margin-right: 20px;
+}
+.success {
+  background: #4caf5036;
+  padding: 10px;
+  color: #327535;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: 2px solid #327535;
+}
+.error {
+  background: #af4c4c36;
+  padding: 10px;
+  color: #f70707;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: 2px solid #753232;
+}
+.docs-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 36px auto;
+  max-width: 100%;
+}
+.doc-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(62, 105, 158, 0.1);
+  transition: box-shadow 0.18s, background 0.18s;
+  width: 270px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.doc-title {
+  font-weight: bold;
+  font-size: 14px;
+  color: #1a366a;
+  letter-spacing: 0.25px;
+  margin-bottom: 7px;
+}
+
+.download-btn {
+  padding: 7px 18px;
+  background: linear-gradient(90deg, #fd4438, #fd4438);
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: box-shadow 0.13s, background 0.2s;
+  box-shadow: 0 1px 7px rgba(38, 113, 184, 0.11);
+}
+.download-btn:hover {
+  background: linear-gradient(90deg, #fd4438, #fd4438);
+}
+.created-case-list {
+  max-width: 100%;
+  margin: 28px auto;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 14px rgba(62, 105, 158, 0.09);
+  padding: 20px;
+}
+.case-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.case-table-header,
+.case-table-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+}
+.case-table-header {
+  font-weight: bold;
+  background: #4807ea;
+  padding: 8px;
+  border-radius: 4px;
+  color: #ffffff;
+  box-shadow: 0 1px 5px rgba(36, 99, 172, 0.04);
+}
+.case-table-row {
+  font-size: 1em;
+  padding: 8px;
+  color: #031930;
+  border-bottom: 1px solid #e3e7ef;
+  transition: background 0.14s;
+}
+/* Code Generated by Sidekick is for learning and experimentation purposes only. */
+.counterparty-table {
+  margin-top: 18px;
+  width: 100%;
+}
+.counterparty-table-header,
+.counterparty-table-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 10px;
+  align-items: center;
+  padding: 6px 0;
+}
+.counterparty-table-header {
+  font-weight: bold;
+  background: #f70707;
+  padding: 10px;
+  color: #fff;
+}
+.counterparty-table-row {
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  background-color: #fff;
+  padding: 8px 10px;
+  margin-bottom: 2px;
+}
+.counterparty-form {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+  justify-content: space-between;
+}
+#addCounterpartyBtn {
+  padding: 7px 18px;
+  background: linear-gradient(90deg, #f70707, #f70707);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: box-shadow 0.13s, background 0.2s;
+  box-shadow: 0 1px 7px rgba(38, 113, 184, 0.11);
+}
+.counterparty-form input {
+  background-color: #f3f3f3;
+  width: 400px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 10px;
+  color: #031930;
+}
+.counterparty-form input:nth-child(2) {
+  width: fit-content;
 }

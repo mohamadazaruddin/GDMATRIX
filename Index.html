@@ -22,7 +22,10 @@
         <div id="Teams">
           <div style="display: flex; justify-content: space-between">
             <div>
-              <h2 style="text-align: left" id="content"></h2>
+              <h2
+                style="text-align: left; margin-bottom: 4px"
+                id="content"
+              ></h2>
               <p id="page-description"></p>
             </div>
             <div>
@@ -37,52 +40,195 @@
           <div class="grid-wrapper">
             <div class="grid-header-container">
               <div class="grid-header">Batch</div>
-              <div class="grid-header">Group</div>
-              <div class="grid-header">Resource</div>
-              <div class="grid-header">Role</div>
-              <div class="grid-header">Resource</div>
-              <div class="grid-header">Role</div>
-              <div class="grid-header">Resource</div>
-              <div class="grid-header">Role</div>
-              <div class="grid-header">Resource</div>
-              <div class="grid-header">Role</div>
+              <div class="grid-header">L1 Analyst ECM</div>
+              <div class="grid-header">L1 Analyst</div>
+              <div class="grid-header">L1 QC - ECM</div>
+              <div class="grid-header">L1 QC</div>
+              <div class="grid-header">L1 Team Lead - ECM</div>
+              <div class="grid-header">L1 Team Lead</div>
+              <div class="grid-header">L2 QC</div>
+              <div class="grid-header">L2 Team Lead</div>
+              <div class="grid-header">Case Type</div>
+              <div class="grid-header">Location</div>
+              <div class="grid-header">Sampling Date</div>
             </div>
             <div class="grid-body-container" id="grid-body"></div>
           </div>
         </div>
         <div id="Tools"><div id="card-container"></div></div>
         <div id="Operations">
-          <h2>User List</h2>
-          <ul id="userList"></ul>
+          <div class="flex">
+            <!-- case create form -->
+            <div class="form-card">
+              <h2>Create Case Folder</h2>
+              <label for="caseId">Enter Case ID:</label>
+              <input
+                type="text"
+                class="case-input"
+                id="caseId"
+                placeholder="Case ID"
+                required
+              />
+              <label for="counterParty">Is counter party available?</label>
+              <div class="radio-btn-parent">
+                <input
+                  type="radio"
+                  class="counterpartyCheckbox"
+                  id="counterPartyYes"
+                  name="counterParty"
+                  value="yes"
+                />
+                <label for="counterPartyYes">Yes</label>
+                <input
+                  class="counterpartyCheckbox"
+                  type="radio"
+                  id="counterPartyNo"
+                  name="counterParty"
+                  value="no"
+                  checked
+                />
+                <label for="counterPartyNo">No</label>
+              </div>
 
-          <h2>Add New User</h2>
-          <form id="addUserForm">
-            <input type="text" id="name" placeholder="Name" required />
-            <input type="email" id="email" placeholder="Email" required />
-            <button type="submit">Add User</button>
-          </form>
+              <button
+                id="submitBtn"
+                class="formbtns"
+                onclick="createCaseFolder()"
+              >
+                Submit
+              </button>
+              <div id="message"></div>
+            </div>
+
+            <!-- applying Narations form -->
+            <div class="form-card">
+              <h2>Generate Document Narrative</h2>
+              <label for="docType">Select Doc Type</label>
+              <select class="case-input" id="docType" required>
+                <option value="" disabled selected>Select an option</option>
+                <!-- <option value="colo">
+            Focalentity Due Deligence No Results Matched
+          </option> -->
+                <option
+                  value="Focal entity name match, age match, address match, phone number
+            match"
+                >
+                  Focal entity name match, age match, address match, phone
+                  number match
+                </option>
+                <option value="Focal entity SMB details">
+                  Focal entity SMB details
+                </option>
+                <option value="No OFAC Sanction Found for the focal entity">
+                  OFAC No Sanction Found
+                </option>
+                <option
+                  value="On the review of the below hits no Results found related to the focal entity."
+                >
+                  Google Screening No Results Matched
+                </option>
+                <option
+                  value="On the review of the below hits no Adverse media or Negative news related to fincrime found related to the focal entity"
+                >
+                  Google Screening No Negative news
+                </option>
+              </select>
+              <button
+                id="generatebtn"
+                class="formbtns"
+                onclick="generateNarrative()"
+              >
+                Submit
+              </button>
+
+              <div id="narrative-message"></div>
+            </div>
+
+            <!-- due diligence -->
+            <div class="form-card">
+              <h2>Person/Entity Search</h2>
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="case-input
+                placeholder="Enter Name" required />
+              </div>
+              <div class="flex">
+                <div>
+                  <label for="city">City:</label>
+                  <input type="text" id="city" class="case-input
+                  placeholder="Enter City" />
+                </div>
+                <div>
+                  <label for="state">State:</label>
+                  <input type="text" id="state" class="case-input
+                  placeholder="Enter State" />
+                </div>
+              </div>
+              <button class="formbtns" onclick="openSearchTabs()">
+                Submit
+              </button>
+            </div>
+          </div>
+          <div class="created-case-list">
+            <div class="case-table">
+              <div class="case-table-header">
+                <div>Sr No</div>
+                <div>Case ID</div>
+                <div>Date Added</div>
+                <div>Added By</div>
+              </div>
+              <div id="case-table-body"></div>
+
+              <!-- Add more rows dynamically -->
+            </div>
+          </div>
         </div>
-        <div id="Research">Research</div>
-        <div id="Documents">Documents</div>
-        <div id="Narations">
-          <input type="file" id="excelFile" />
+        <div id="Research">
+          <h3>Add Counterparty</h3>
+          <div class="flex counterparty-form">
+            <div class="flex">
+              <input
+                type="text"
+                id="counterpartyInput"
+                placeholder="Counterparty Name"
+              />
+              <input
+                type="text"
+                disabled
+                id="analystInput"
+                value="Azar"
+                placeholder="Analyst Name"
+              />
+              <button id="addCounterpartyBtn">Add Counterparty</button>
+            </div>
+            <div>
+              <input
+                type="text"
+                id="searchcounterparty"
+                placeholder="Search Counterparty"
+              />
+            </div>
+          </div>
+
+          <div class="counterparty-table">
+            <div class="counterparty-table-header">
+              <div>Sr No</div>
+              <div>Counterparty Name</div>
+              <div>Analyst Name</div>
+            </div>
+            <div id="counterparty-table-body">
+              <!-- Dynamic rows will appear here -->
+            </div>
+          </div>
         </div>
+        <div id="Documents">
+          <div class="docs-grid" id="docs-grid"></div>
+        </div>
+        <div id="Narations"></div>
       </div>
     </main>
+    <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
     <script src="org.js"></script>
     <script src="script.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/appwrite@13.0.0"></script> -->
-    <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
-    <script>
-      fetch("Deloitte_Team_Structure.xlsx")
-        .then((response) => response.arrayBuffer())
-        .then((arrayBuffer) => {
-          const data = new Uint8Array(arrayBuffer);
-          const workbook = XLSX.read(data, { type: "array" });
-          const firstSheet = workbook.Sheets[workbook.SheetNames[0]];
-          const jsonData = XLSX.utils.sheet_to_json(firstSheet);
-          console.log(jsonData, "dta");
-        });
-    </script>
   </body>
 </html>
