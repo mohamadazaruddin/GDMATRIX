@@ -169,6 +169,7 @@ main {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
   padding: 12px 16px;
   min-width: 280px;
+  border-left: 3px solid red;
   max-width: 280px;
   flex: 1 1 220px;
   overflow: hidden;

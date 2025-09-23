@@ -51,13 +51,38 @@
           </div>
         </div>
         <div id="Tools"><div id="card-container"></div></div>
-        <div id="Operations">Operations</div>
+        <div id="Operations">
+          <h2>User List</h2>
+          <ul id="userList"></ul>
+
+          <h2>Add New User</h2>
+          <form id="addUserForm">
+            <input type="text" id="name" placeholder="Name" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <button type="submit">Add User</button>
+          </form>
+        </div>
         <div id="Research">Research</div>
         <div id="Documents">Documents</div>
-        <div id="Narations">Narations</div>
+        <div id="Narations">
+          <input type="file" id="excelFile" />
+        </div>
       </div>
     </main>
     <script src="org.js"></script>
     <script src="script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/appwrite@13.0.0"></script> -->
+    <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+    <script>
+      fetch("Deloitte_Team_Structure.xlsx")
+        .then((response) => response.arrayBuffer())
+        .then((arrayBuffer) => {
+          const data = new Uint8Array(arrayBuffer);
+          const workbook = XLSX.read(data, { type: "array" });
+          const firstSheet = workbook.Sheets[workbook.SheetNames[0]];
+          const jsonData = XLSX.utils.sheet_to_json(firstSheet);
+          console.log(jsonData, "dta");
+        });
+    </script>
   </body>
 </html>

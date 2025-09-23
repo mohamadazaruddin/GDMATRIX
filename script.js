@@ -94,7 +94,56 @@ function renderCards() {
   });
 }
 
-renderList(orgData);
-setupSearch(orgData);
+// const { Client, Databases, ID } = Appwrite;
+
+// const client = new Client()
+//   .setEndpoint("https://fra.cloud.appwrite.io/v1") // e.g., 'https://cloud.appwrite.io/v1'
+//   .setProject("65c0ff8899a8453945af"); // Your Appwrite project ID
+
+// const databases = new Databases(client);
+// const databaseId = "68d1396100206a743faa"; // Your Appwrite database ID
+// const collectionId = "cp-details"; // Your Appwrite collection ID
+
+// const userList = document.getElementById("userList");
+// const addUserForm = document.getElementById("addUserForm");
+
+// function fetchUsers() {
+//   databases
+//     .listDocuments(databaseId, collectionId)
+//     .then((response) => {
+//       userList.innerHTML = "";
+//       response.documents.forEach((user) => {
+//         const li = document.createElement("li");
+//         li.textContent = `${user.name} (${user.email})`;
+//         userList.appendChild(li);
+//       });
+//     })
+//     .catch((error) => {
+//       userList.innerHTML = "<li>Error loading users.</li>";
+//       console.error(error);
+//     });
+// }
+
+// addUserForm.addEventListener("submit", function (e) {
+//   e.preventDefault();
+//   const name = document.getElementById("name").value;
+//   const email = document.getElementById("email").value;
+
+//   databases
+//     .createDocument(databaseId, collectionId, ID.unique(), { name, email })
+//     .then(() => {
+//       fetchUsers();
+//       addUserForm.reset();
+//     })
+//     .catch((error) => {
+//       alert("Failed to add user.");
+//       console.error(error);
+//     });
+// });
+
+// Initial load
+// fetchUsers();
+renderList(TeamMapping);
+setupSearch(TeamMapping);
 renderNav();
 renderCards();
